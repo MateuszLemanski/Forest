@@ -237,7 +237,7 @@ main {
 				padding: 1.5em 3em;
 				box-shadow: 0px 8px 27px -16px color.$box-shadow-card;
 				border-radius: 5%;
-				transition: transform .3s;
+				transition: transform 0.3s;
 
 				&__package-name {
 					font-weight: normal;
@@ -268,7 +268,7 @@ main {
 					border: none;
 					border-radius: 8px;
 					cursor: pointer;
-					transition: background-color .3s, box-shadow .3s, color .3s;
+					transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
 				}
 
 				button:hover {
@@ -277,7 +277,6 @@ main {
 					color: #fff;
 					// transition: .3s;
 				}
-
 			}
 
 			.card:hover {
@@ -327,7 +326,7 @@ main {
 			box-shadow: 0px 0px 10px 0px color.$box-shadow-basic;
 			background-color: color.$box-shadow-call-to-action;
 			cursor: pointer;
-			transition: box-shadow .3s, color .3s;
+			transition: box-shadow 0.3s, color 0.3s;
 		}
 
 		.more-offer-button:hover {
@@ -343,7 +342,7 @@ main {
 	position: relative;
 	top: 100vh;
 	left: 0;
-	background-color: #f7f3f3;
+	background-color: color.$footer-background-color;
 	width: 100%;
 
 	.wrapper-addinfo {
@@ -377,7 +376,7 @@ main {
 			a {
 				display: block;
 				margin: 1em 0;
-				padding: .5em 0;
+				padding: 0.5em 0;
 				font-size: 1.5rem;
 				text-decoration: none;
 				color: color.$primary-text-color;
