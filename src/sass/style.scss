@@ -317,9 +317,12 @@ main {
 			display: block;
 			margin: 0 auto;
 			padding: 1em 2em;
+			width: 20vw;
 			font-size: 2rem;
+			text-decoration: none;
 			text-transform: uppercase;
 			text-align: center;
+			color: color.$secondary-text-color;
 			background-color: transparent;
 			border-radius: 15px;
 			border: none;
