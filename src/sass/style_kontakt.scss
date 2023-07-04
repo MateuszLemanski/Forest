@@ -120,6 +120,36 @@ main {
 			font-size: 1.7rem;
 		}
 
+		&__box {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 70vh;
+		}
+
+		&__form {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: flex-start;
+			width: 50%;
+			height: 100%;
+			padding: 2em;
+			margin: 1em;
+
+			&-input {
+				height: 5vh;
+				width: 100%;
+				border-radius: .4em;
+			}
+
+			&-textarea {
+				width: 100%;
+				border-radius: .4em;
+			}
+		}
+
+		
 	}
 }
 

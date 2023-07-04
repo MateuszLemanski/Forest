@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +11,9 @@
 <link rel="stylesheet" href="dist/css/style_kontakt.min.css">
 <script src="https://kit.fontawesome.com/3144b84522.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+
     <nav class="nav">
     <div class="nav__wrapper">
         <div class="nav__logo">
@@ -33,18 +35,27 @@
         <section class="contact wrapper">
             <h2 class="section-title">Kontakt i mapa dojazdu</h2>
             <p>Użyj formularza lub zadzwoń by się z nami skontaktować</p>
-            <div class="contact__form">
-                <label for="name" class="contact__form-label">Imię</label>
-                <input type="text" id="name" class="contact__form-input"> 
 
-                <label for="surname" class="contact__form-label">Nazwisko</label>
-                <input type="text" id="surname" class="contact__form-input"> 
+            <div class="contact__box">
+                <div class="contact__form">
+                    <label for="name" class="contact__form-label">Imię</label>
+                    <input type="text" id="name" class="contact__form-input">
 
-                <label for="name" class="contact__form-label">Email</label>
-                <input type="email" id="email" class="contact__form-input"> 
+                    <label for="surname" class="contact__form-label">Nazwisko</label>
+                    <input type="text" id="surname" class="contact__form-input">
 
-                <label for="msg" class="contact__form-label">Wiadomość</label>
-                <textarea id="msg" cols="30" rows="10"></textarea>
+                    <label for="name" class="contact__form-label">Email</label>
+                    <input type="email" id="email" class="contact__form-input">
+
+                    <label for="msg" class="contact__form-label">Wiadomość</label>
+                    <textarea id="msg" cols="30" rows="10" class="contact__form-textarea"></textarea>
+                </div>
+                <div class="contact__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8978440150277!2d19.89027427644836!3d50.08819947152532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a2d7f0d587f%3A0x15f4e7c36adff6d2!2sJasnog%C3%B3rska%202%2C%2031-358%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1688499477898!5m2!1spl!2spl"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </section>
     </main>
@@ -87,4 +98,5 @@
 </footer>
 
 </body>
+
 </html>
