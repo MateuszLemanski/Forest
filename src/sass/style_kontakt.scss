@@ -40,8 +40,6 @@ ul {
 
 /*-----------------navigation----------------*/
 
-
-
 .nav {
 	// display: none;
 	position: fixed;
@@ -103,7 +101,7 @@ ul {
 main {
 	position: relative;
 	left: 0;
-	margin-top: 8em;				
+	margin-top: 8em;
 	padding-bottom: 8em;
 	background-color: color.$contact-background-color;
 
@@ -137,19 +135,44 @@ main {
 			padding: 2em;
 			margin: 1em;
 
+			&-field {
+				position: relative;
+				width: 100%;
+			}
+
+			&-label {
+				position: absolute;
+				top: 0.1em;
+				left: 1.5em;
+				height: 5vh;
+				line-height: 5vh;
+				font-size: 1.5rem;
+				letter-spacing: 0.1em;
+				text-transform: uppercase;
+				transition: 0.2s ease;
+				cursor: text;
+			}
+			
 			&-input {
+				padding: 0 1.5em;
 				height: 5vh;
 				width: 100%;
-				border-radius: .4em;
+				border-radius: 0.4em;
+
+				&:not(:placeholder-shown) + label,
+				&:focus + label {
+					height: 20px;
+					line-height: 4vh;
+					transform: translate(0, -10px);
+					font-size: 1.3rem;
+				}
 			}
 
 			&-textarea {
 				width: 100%;
-				border-radius: .4em;
+				border-radius: 0.4em;
 			}
 		}
-
-		
 	}
 }
 
