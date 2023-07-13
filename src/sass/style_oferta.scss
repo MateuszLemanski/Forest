@@ -105,15 +105,14 @@ main {
 					box-shadow: 5px 5px 5px 0px color.$box-shadow-basic;
 					border: none;
 					border-radius: 8px;
-					cursor: pointer;
 					transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
-				}
+					cursor: pointer;
 
-				button:hover {
-					background-color: rgb(0, 250, 154);
-					box-shadow: none;
-					color: #fff;
-					// transition: .3s;
+					&:hover {
+						background-color: color.$offer-button-color;
+						box-shadow: none;
+						color: #fff;
+					}
 				}
 			}
 
