@@ -38,6 +38,10 @@ ul {
 	list-style-type: none;
 }
 
+i {
+	color: color.$icon-color-green;
+}
+
 /*-----------------navigation----------------*/
 
 .nav {
@@ -116,7 +120,7 @@ main {
 			text-align: center;
 			letter-spacing: 0.07em;
 			font-size: 1.7rem;
-			padding-bottom: .8em;
+			padding-bottom: 0.8em;
 		}
 
 		&__box {
@@ -224,6 +228,13 @@ main {
 				box-shadow: none;
 				color: #fff;
 			}
+		}
+
+		&__info {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
 		}
 	}
 }
