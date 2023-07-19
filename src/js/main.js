@@ -4,7 +4,7 @@ const firstName = document.querySelector('#name');
 const surname = document.querySelector('#surname');
 const email = document.querySelector('#email');
 const msg = document.querySelector('#msg');
-const formFields = [firstName, surname, email, msg]
+const formFields = [firstName, surname, email, msg];
 
 const handleNewYear = () => {
     const year = new Date().getFullYear();
