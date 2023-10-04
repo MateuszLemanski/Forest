@@ -115,7 +115,7 @@ ul {
 //--------------home-----------//
 
 .hero-img {
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	background-image: url(/src/img/jungle1920.jpg);
@@ -152,13 +152,13 @@ ul {
 
 main {
 	position: relative;
-	top: 100vh;
 	left: 0;
 
 	//-----------------------------ABOUT US-----------------------------//
 
 	.aboutus {
 		height: 100vh;
+		top: 100vh;
 		// margin: 0 1.5em;
 
 		.aboutus-content {
@@ -351,7 +351,6 @@ main {
 
 .addinfo {
 	position: relative;
-	top: 100vh;
 	left: 0;
 	background-color: color.$footer-background-color;
 	width: 100%;
